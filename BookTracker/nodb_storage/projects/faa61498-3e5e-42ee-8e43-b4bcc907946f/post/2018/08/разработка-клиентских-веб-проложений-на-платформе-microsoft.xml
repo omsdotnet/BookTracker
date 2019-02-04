@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-16"?>
+<post>
+  <id>разработка-клиентских-веб-проложений-на-платформе-microsoft</id>
+  <title>Разработка клиентских веб проложений на платформе microsoft</title>
+  <slug>разработка-клиентских-веб-проложений-на-платформе-microsoft</slug>
+  <correlationkey />
+  <author>Admin</author>
+  <pubDate>2018-08-30T05:37:52.3161436Z</pubDate>
+  <lastModified>2018-08-30T05:37:52</lastModified>
+  <excerpt />
+  <content>        &lt;div class="float-md-left simple-side-image mr-md-2"&gt;
+            &lt;img class="image-responsive" src="/pk/05635085_cover_250.jpg" /&gt;
+        &lt;/div&gt;
+&lt;p&gt;Автор:Гленн Джонсон&lt;/p&gt;
+
+&lt;p&gt;Год выпуска: 2007&lt;/p&gt;
+
+&lt;p&gt;Издательство:&lt;/p&gt;
+
+&lt;p&gt;Перевод:&lt;/p&gt;
+
+&lt;p&gt;Переплет:&lt;/p&gt;
+
+&lt;p&gt;Страниц:&lt;/p&gt;
+
+
+</content>
+  <contentType>html</contentType>
+  <imageUrl />
+  <thumbnailUrl />
+  <createdUtc>2018-08-27T04:12:41</createdUtc>
+  <createdByUser>admin</createdByUser>
+  <lastModifiedByUser>admin</lastModifiedByUser>
+  <draftAuthor />
+  <draftContent />
+  <draftPubDate />
+  <templateKey>sct-ImageWithContent</templateKey>
+  <serializedModel>{"Content":"&lt;p&gt;Автор:Гленн Джонсон&lt;/p&gt;\r\n\r\n&lt;p&gt;Год выпуска: 2007&lt;/p&gt;\r\n\r\n&lt;p&gt;Издательство:&lt;/p&gt;\r\n\r\n&lt;p&gt;Перевод:&lt;/p&gt;\r\n\r\n&lt;p&gt;Переплет:&lt;/p&gt;\r\n\r\n&lt;p&gt;Страниц:&lt;/p&gt;\r\n","ResizedUrl":"/pk/05635085_cover_250.jpg","FullSizeUrl":"/pk/05635085_cover_250.jpg","AltText":null,"Layout":"ImageOnLeft"}</serializedModel>
+  <draftSerializedModel />
+  <serializer>Json</serializer>
+  <blogId>faa61498-3e5e-42ee-8e43-b4bcc907946f</blogId>
+  <ispublished>true</ispublished>
+  <isFeatured>false</isFeatured>
+  <autoTeaser></autoTeaser>
+  <teaserOverride />
+  <suppressTeaser>false</suppressTeaser>
+  <categories></categories>
+  <comments></comments>
+</post>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-16"?>
+<post>
+  <id>000001</id>
+  <title>Рефакторинг. Улучшение существующего кода</title>
+  <slug>000001</slug>
+  <correlationkey />
+  <author>Admin</author>
+  <pubDate>2018-08-26T13:09:14.2139657Z</pubDate>
+  <lastModified>2018-08-26T13:09:14</lastModified>
+  <excerpt />
+  <content>        &lt;div class="float-md-left simple-side-image mr-md-2"&gt;
+            &lt;img class="image-responsive" src="/pk/1001522233.jpg" /&gt;
+        &lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Автор&lt;/strong&gt;: &lt;a href="/pk/blog/category/%d0%b0%d0%b2%d1%82.%20%d0%9c%d0%b0%d1%80%d1%82%d0%b8%d0%bd%20%d0%a4%d0%b0%d1%83%d0%bb%d0%b5%d1%80"&gt;Мартин Фаулер&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Год выпуска&lt;/strong&gt;: &lt;a href="/pk/blog/category/%d0%b3.%d0%b2.%202010"&gt;2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Издательство&lt;/strong&gt;: &lt;a href="/pk/blog/category/%d0%b8%d0%b7%d0%b4.%20%d0%a1%d0%b8%d0%bc%d0%b2%d0%be%d0%bb-%d0%9f%d0%bb%d1%8e%d1%81"&gt;Символ-Плюс&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Перевод&lt;/strong&gt;: &lt;a href="/pk/blog/category/%d0%bf%d0%b5%d1%80.%20%d0%a1.%d0%9c%d0%b0%d0%ba%d0%ba%d0%b0%d0%b2%d0%b5%d0%b5%d0%b2"&gt;С.Маккавеев&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Переплет&lt;/strong&gt;: Твердый переплет&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Страниц&lt;/strong&gt;: 432&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+
+</content>
+  <contentType>html</contentType>
+  <imageUrl />
+  <thumbnailUrl />
+  <createdUtc>2018-08-24T20:37:28</createdUtc>
+  <createdByUser>admin</createdByUser>
+  <lastModifiedByUser>admin</lastModifiedByUser>
+  <draftAuthor />
+  <draftContent />
+  <draftPubDate />
+  <templateKey>sct-ImageWithContent</templateKey>
+  <serializedModel>{"Content":"&lt;p&gt;&lt;strong&gt;Автор&lt;/strong&gt;: &lt;a href=\"/pk/blog/category/%d0%b0%d0%b2%d1%82.%20%d0%9c%d0%b0%d1%80%d1%82%d0%b8%d0%bd%20%d0%a4%d0%b0%d1%83%d0%bb%d0%b5%d1%80\"&gt;Мартин Фаулер&lt;/a&gt;&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;Год выпуска&lt;/strong&gt;: &lt;a href=\"/pk/blog/category/%d0%b3.%d0%b2.%202010\"&gt;2010&lt;/a&gt;&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;Издательство&lt;/strong&gt;: &lt;a href=\"/pk/blog/category/%d0%b8%d0%b7%d0%b4.%20%d0%a1%d0%b8%d0%bc%d0%b2%d0%be%d0%bb-%d0%9f%d0%bb%d1%8e%d1%81\"&gt;Символ-Плюс&lt;/a&gt;&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;Перевод&lt;/strong&gt;: &lt;a href=\"/pk/blog/category/%d0%bf%d0%b5%d1%80.%20%d0%a1.%d0%9c%d0%b0%d0%ba%d0%ba%d0%b0%d0%b2%d0%b5%d0%b5%d0%b2\"&gt;С.Маккавеев&lt;/a&gt;&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;Переплет&lt;/strong&gt;: Твердый переплет&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;strong&gt;Страниц&lt;/strong&gt;: 432&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;/p&gt;\r\n","ResizedUrl":"/pk/1001522233.jpg","FullSizeUrl":"/pk/1001522233.jpg","AltText":null,"Layout":"ImageOnLeft"}</serializedModel>
+  <draftSerializedModel />
+  <serializer>Json</serializer>
+  <blogId>faa61498-3e5e-42ee-8e43-b4bcc907946f</blogId>
+  <ispublished>true</ispublished>
+  <isFeatured>false</isFeatured>
+  <autoTeaser></autoTeaser>
+  <teaserOverride />
+  <suppressTeaser>false</suppressTeaser>
+  <categories>
+    <category>авт. Мартин Фаулер</category>
+    <category>г.в. 2010</category>
+    <category>изд. Символ-Плюс</category>
+    <category>пер. С.Маккавеев</category>
+  </categories>
+  <comments></comments>
+</post>

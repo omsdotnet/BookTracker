@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-16"?>
+<post>
+  <id>затерянный-мир</id>
+  <title>Затерянный мир</title>
+  <slug>затерянный-мир</slug>
+  <correlationkey />
+  <author>Admin</author>
+  <pubDate>2018-08-27T05:33:22.5145060Z</pubDate>
+  <lastModified>2018-08-27T05:33:22</lastModified>
+  <excerpt />
+  <content>        &lt;div class="float-md-left simple-side-image mr-md-2"&gt;
+            &lt;img class="image-responsive" src="/nk/data-smt-hudozhestvennaya-literatura-zateryannyj-mir-eksmo-dojl-a-k-0-600x600.jpg" /&gt;
+        &lt;/div&gt;
+&lt;p&gt;Автор: Артур Конан Дойл&lt;/p&gt;
+
+&lt;p&gt;Год выпуска: 2015&lt;/p&gt;
+
+&lt;p&gt;Издательство:&lt;/p&gt;
+
+&lt;p&gt;Переплет:&lt;/p&gt;
+
+&lt;p&gt;Страниц:&lt;/p&gt;
+
+
+</content>
+  <contentType>html</contentType>
+  <imageUrl />
+  <thumbnailUrl />
+  <createdUtc>2018-08-27T05:32:07</createdUtc>
+  <createdByUser>admin</createdByUser>
+  <lastModifiedByUser>admin</lastModifiedByUser>
+  <draftAuthor />
+  <draftContent />
+  <draftPubDate />
+  <templateKey>sct-ImageWithContent</templateKey>
+  <serializedModel>{"Content":"&lt;p&gt;Автор: Артур Конан Дойл&lt;/p&gt;\r\n\r\n&lt;p&gt;Год выпуска: 2015&lt;/p&gt;\r\n\r\n&lt;p&gt;Издательство:&lt;/p&gt;\r\n\r\n&lt;p&gt;Переплет:&lt;/p&gt;\r\n\r\n&lt;p&gt;Страниц:&lt;/p&gt;\r\n","ResizedUrl":"/nk/data-smt-hudozhestvennaya-literatura-zateryannyj-mir-eksmo-dojl-a-k-0-600x600.jpg","FullSizeUrl":"/nk/data-smt-hudozhestvennaya-literatura-zateryannyj-mir-eksmo-dojl-a-k-0-600x600.jpg","AltText":null,"Layout":"ImageOnLeft"}</serializedModel>
+  <draftSerializedModel />
+  <serializer>Json</serializer>
+  <blogId>831351e2-9788-4c59-91e1-03dfec6205cf</blogId>
+  <ispublished>true</ispublished>
+  <isFeatured>false</isFeatured>
+  <autoTeaser></autoTeaser>
+  <teaserOverride />
+  <suppressTeaser>false</suppressTeaser>
+  <categories></categories>
+  <comments></comments>
+</post>

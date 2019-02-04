@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-16"?>
+<post>
+  <id>share-point-services-30</id>
+  <title>Share Point SERVICES 3.0</title>
+  <slug>share-point-services-30</slug>
+  <correlationkey />
+  <author>Admin</author>
+  <pubDate>2018-08-30T05:33:14.9110410Z</pubDate>
+  <lastModified>2018-08-30T05:33:14</lastModified>
+  <excerpt />
+  <content>        &lt;div class="float-md-left simple-side-image mr-md-2"&gt;
+            &lt;img class="image-responsive" src="/pk/108608.jpg" /&gt;
+        &lt;/div&gt;
+&lt;p&gt;Автор:Тед Паттисон&lt;/p&gt;
+
+&lt;p&gt;Год выпуска: 2008&lt;/p&gt;
+
+&lt;p&gt;Издательство:&lt;/p&gt;
+
+&lt;p&gt;Перевод:&lt;/p&gt;
+
+&lt;p&gt;Переплет:&lt;/p&gt;
+
+&lt;p&gt;Страниц:&lt;/p&gt;
+
+
+</content>
+  <contentType>html</contentType>
+  <imageUrl />
+  <thumbnailUrl />
+  <createdUtc>2018-08-27T04:44:39</createdUtc>
+  <createdByUser>admin</createdByUser>
+  <lastModifiedByUser>admin</lastModifiedByUser>
+  <draftAuthor />
+  <draftContent />
+  <draftPubDate />
+  <templateKey>sct-ImageWithContent</templateKey>
+  <serializedModel>{"Content":"&lt;p&gt;Автор:Тед Паттисон&lt;/p&gt;\r\n\r\n&lt;p&gt;Год выпуска: 2008&lt;/p&gt;\r\n\r\n&lt;p&gt;Издательство:&lt;/p&gt;\r\n\r\n&lt;p&gt;Перевод:&lt;/p&gt;\r\n\r\n&lt;p&gt;Переплет:&lt;/p&gt;\r\n\r\n&lt;p&gt;Страниц:&lt;/p&gt;\r\n","ResizedUrl":"/pk/108608.jpg","FullSizeUrl":"/pk/108608.jpg","AltText":null,"Layout":"ImageOnLeft"}</serializedModel>
+  <draftSerializedModel />
+  <serializer>Json</serializer>
+  <blogId>faa61498-3e5e-42ee-8e43-b4bcc907946f</blogId>
+  <ispublished>true</ispublished>
+  <isFeatured>false</isFeatured>
+  <autoTeaser></autoTeaser>
+  <teaserOverride />
+  <suppressTeaser>false</suppressTeaser>
+  <categories></categories>
+  <comments></comments>
+</post>

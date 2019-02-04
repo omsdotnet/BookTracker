@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-16"?>
+<post>
+  <id>с</id>
+  <title>С#</title>
+  <slug>с</slug>
+  <correlationkey />
+  <author>Admin</author>
+  <pubDate>2018-08-30T04:29:47.0911422Z</pubDate>
+  <lastModified>2018-08-30T04:29:47</lastModified>
+  <excerpt />
+  <content>&lt;p&gt;Автор: &lt;a href="/pk/blog/category/%d0%b0%d0%b2%d1%82.%20%d0%9a%d0%b0%d1%80%d0%bb%d0%b8%20%d0%92%d0%b0%d1%82%d1%81%d0%be%d0%bd"&gt;Карли Ватсон&lt;/a&gt; и другие&lt;/p&gt;
+
+&lt;p&gt;Год выпуска: &lt;a href="/pk/blog/category/%d0%b3.%d0%b2.%202001"&gt;2001&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Издательство:&lt;/p&gt;
+
+&lt;p&gt;Перевод:&lt;/p&gt;
+
+&lt;p&gt;Переплет:&lt;/p&gt;
+
+&lt;p&gt;Страниц:&lt;/p&gt;
+
+
+</content>
+  <contentType>html</contentType>
+  <imageUrl />
+  <thumbnailUrl />
+  <createdUtc>2018-08-27T05:17:16</createdUtc>
+  <createdByUser>admin</createdByUser>
+  <lastModifiedByUser>admin</lastModifiedByUser>
+  <draftAuthor />
+  <draftContent />
+  <draftPubDate />
+  <templateKey>sct-ImageWithContent</templateKey>
+  <serializedModel>{"Content":"&lt;p&gt;Автор: &lt;a href=\"/pk/blog/category/%d0%b0%d0%b2%d1%82.%20%d0%9a%d0%b0%d1%80%d0%bb%d0%b8%20%d0%92%d0%b0%d1%82%d1%81%d0%be%d0%bd\"&gt;Карли Ватсон&lt;/a&gt; и другие&lt;/p&gt;\r\n\r\n&lt;p&gt;Год выпуска: &lt;a href=\"/pk/blog/category/%d0%b3.%d0%b2.%202001\"&gt;2001&lt;/a&gt;&lt;/p&gt;\r\n\r\n&lt;p&gt;Издательство:&lt;/p&gt;\r\n\r\n&lt;p&gt;Перевод:&lt;/p&gt;\r\n\r\n&lt;p&gt;Переплет:&lt;/p&gt;\r\n\r\n&lt;p&gt;Страниц:&lt;/p&gt;\r\n","ResizedUrl":null,"FullSizeUrl":null,"AltText":null,"Layout":"ImageOnLeft"}</serializedModel>
+  <draftSerializedModel />
+  <serializer>Json</serializer>
+  <blogId>faa61498-3e5e-42ee-8e43-b4bcc907946f</blogId>
+  <ispublished>true</ispublished>
+  <isFeatured>false</isFeatured>
+  <autoTeaser></autoTeaser>
+  <teaserOverride />
+  <suppressTeaser>false</suppressTeaser>
+  <categories>
+    <category>авт. Карли Ватсон</category>
+    <category>г.в. 2001</category>
+  </categories>
+  <comments></comments>
+</post>
