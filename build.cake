@@ -101,7 +101,7 @@ Teardown(context =>
 Task("RestorePackages")
 .Does(() =>
 {
-  NuGetRestore(parameters.Solution);
+  NuGetRestore(parameters.Paths.Directories.Source.Combine(parameters.Solution).FullPath);
 });
 
 Task("InitializeSonar")
