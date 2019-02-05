@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-16"?>
+<post>
+  <id>тренируем-мозг</id>
+  <title>Тренируем мозг. Тетрадь для развития памяти и интеллекта №1</title>
+  <slug>тренируем-мозг</slug>
+  <correlationkey />
+  <author>Admin</author>
+  <pubDate>2018-10-03T12:52:19.2252601Z</pubDate>
+  <lastModified>2018-10-03T12:52:19</lastModified>
+  <excerpt />
+  <content>&lt;p&gt;Автор: Рюта Кавашима&lt;/p&gt;
+
+&lt;p&gt;Год выпуска: 2018&lt;/p&gt;
+
+&lt;p&gt;Издательство: Манн, Иванов и Фербер&lt;/p&gt;
+
+&lt;p&gt;Перевод: Диана Лазарева&lt;/p&gt;
+
+&lt;p&gt;Переплет: мягкий&lt;/p&gt;
+
+&lt;p&gt;Страниц: 192&lt;/p&gt;
+
+
+</content>
+  <contentType>html</contentType>
+  <imageUrl />
+  <thumbnailUrl />
+  <createdUtc>2018-10-03T11:11:18</createdUtc>
+  <createdByUser>admin</createdByUser>
+  <lastModifiedByUser>admin</lastModifiedByUser>
+  <draftAuthor />
+  <draftContent />
+  <draftPubDate />
+  <templateKey>sct-ImageWithContent</templateKey>
+  <serializedModel>{"Content":"&lt;p&gt;Автор: Рюта Кавашима&lt;/p&gt;\r\n\r\n&lt;p&gt;Год выпуска: 2018&lt;/p&gt;\r\n\r\n&lt;p&gt;Издательство: Манн, Иванов и Фербер&lt;/p&gt;\r\n\r\n&lt;p&gt;Перевод: Диана Лазарева&lt;/p&gt;\r\n\r\n&lt;p&gt;Переплет: мягкий&lt;/p&gt;\r\n\r\n&lt;p&gt;Страниц: 192&lt;/p&gt;\r\n","ResizedUrl":null,"FullSizeUrl":null,"AltText":null,"Layout":"ImageOnLeft"}</serializedModel>
+  <draftSerializedModel />
+  <serializer>Json</serializer>
+  <blogId>7f718454-8076-4f28-bbf0-dde1699a53a8</blogId>
+  <ispublished>true</ispublished>
+  <isFeatured>false</isFeatured>
+  <autoTeaser></autoTeaser>
+  <teaserOverride />
+  <suppressTeaser>false</suppressTeaser>
+  <categories>
+    <category>авт. Рюта Кавашима</category>
+    <category>г.в. 2018</category>
+  </categories>
+  <comments></comments>
+</post>
