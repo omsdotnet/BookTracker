@@ -3,13 +3,24 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <UserSecretsId>BookTracker-B4C92CF0-0568-4AF8-AF67-144E6E27CC1B</UserSecretsId>
+    <LangVersion>latest</LangVersion>
+    <StartupObject></StartupObject>
+    <Authors>omsdotnet</Authors>
+    <Company>omsdotnet</Company>
+    <Copyright>omsdotnet @ 2019</Copyright>
+    <PackageProjectUrl>https://github.com/omsdotnet/BookTracker/projects/1</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/omsdotnet/BookTracker</RepositoryUrl>
   </PropertyGroup>
 
    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <NoWarn>1701;1702;0436</NoWarn>
+    <OutputPath>..\Bin\</OutputPath>
+    <DocumentationFile>..\Bin\BookTracker.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <NoWarn>1701;1702;0436</NoWarn>
+    <OutputPath>..\Bin\</OutputPath>
+    <DocumentationFile>..\Bin\BookTracker.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
