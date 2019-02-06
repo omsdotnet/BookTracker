@@ -44,8 +44,6 @@ Setup(context =>
   { 
     MaxCpuCount = Environment.ProcessorCount,
     Configuration = parameters.Configuration,
-    PlatformTarget = (PlatformTarget)parameters.ProjectBuildTargetPlatform,
-    ToolVersion = (MSBuildToolVersion)parameters.MsBuildToolVersion
   };
 
   Information("Initialize NUnit3Settings");
