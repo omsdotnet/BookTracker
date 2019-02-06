@@ -81,11 +81,7 @@ Setup(context =>
   };
 
   Information("Initialize SonarEndSettings");
-  sonarqubeEndSettings = new SonarEndSettings()
-  {
-    Login = parameters.SonarqubeLogin,
-    Password = parameters.SonarqubePassword
-  };
+  sonarqubeEndSettings = sonarqubeBeginSettings.GetEndSettings();
 });
 
 
