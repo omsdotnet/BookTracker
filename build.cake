@@ -118,7 +118,7 @@ Task("Build")
 });
 
 Task("RunUnitTests")
-  .WithCriteria(parameters.SkipUnitTests)
+  .WithCriteria(!parameters.SkipUnitTests)
   .IsDependentOn("Build")
   .Does(() =>
 {
