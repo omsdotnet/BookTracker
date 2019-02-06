@@ -1,14 +1,15 @@
 ///////////////////////////////////////////////////////////////////////////////
 // Tools
 ///////////////////////////////////////////////////////////////////////////////
-#tool nuget:?package=MSBuild.SonarQube.Runner.Tool
-#tool nuget:?package=NUnit.ConsoleRunner
-#tool nuget:?package=JetBrains.dotCover.CommandLineTools
+#tool nuget:?package=MSBuild.SonarQube.Runner.Tool&version=4.3.1
+#tool nuget:?package=NUnit.ConsoleRunner&version=3.9.0
+#tool nuget:?package=JetBrains.dotCover.CommandLineTools&version=2018.3.1
 
 ///////////////////////////////////////////////////////////////////////////////
 // AddIn
 ///////////////////////////////////////////////////////////////////////////////
-#addin nuget:?package=Cake.Sonar
+#addin nuget:?package=Cake.Sonar&version=1.1.16
+#addin nuget:?package=Cake.ArgumentHelpers&version=0.3.0
 
 ///////////////////////////////////////////////////////////////////////////////
 // Load custom classes
@@ -74,8 +75,9 @@ Setup(context =>
     Url = parameters.SonarqubeUrl,
     Login = parameters.SonarqubeLogin,
     Password = parameters.SonarqubePassword,
-    Key = parameters.ProjectKey,
-    Name = parameters.ProjectName,
+    Key = parameters.SonarProjectKey,
+    Name = parameters.SonarProjectName,
+    Organization= parameters.SonarOrganization,
     Branch = parameters.Branch,
     NUnitReportsPath = parameters.Paths.Directories.ToolsReports.Combine(Directory("./UnitResultsReport.xml")).FullPath,
     DotCoverReportsPath = parameters.Paths.Directories.ToolsReports.Combine(Directory("./DotCoverReport.html")).FullPath
