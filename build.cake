@@ -42,7 +42,6 @@ Setup(context =>
   Information("Initialize MSBuildSettings");
   msBuildSettings = new MSBuildSettings() 
   { 
-    ToolPath = parameters.MsBuildPath,
     MaxCpuCount = Environment.ProcessorCount,
     Configuration = parameters.Configuration,
     PlatformTarget = (PlatformTarget)parameters.ProjectBuildTargetPlatform,
