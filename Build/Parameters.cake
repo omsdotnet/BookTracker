@@ -55,7 +55,7 @@ public class BuildParameters
       SonarProjectName = context.ArgumentOrEnvironmentVariable(nameof(SonarProjectName), string.Empty),
       SonarOrganization = context.ArgumentOrEnvironmentVariable(nameof(SonarOrganization), string.Empty),
       IsLocalBuild = buildSystem.IsLocalBuild,
-      SkipUnitTests = context.ArgumentOrEnvironmentVariable(nameof(SkipUnitTests), string.Empty, default),
+      SkipUnitTests = context.ArgumentOrEnvironmentVariable(nameof(SkipUnitTests), string.Empty, false),
       IsMasterBranch = StringComparer.OrdinalIgnoreCase.Equals("master", branch),            
     };
   }
