@@ -1,7 +1,4 @@
-# BookTracker - http://booktracking.azurewebsites.net/
-
-Позволяет вести учет печатных книг на Вашей книжной полке, с возможностью шаринга их среди коллег и знакомых. Также есть возможность объединения различных книжных полок в общую корпоративную библиотеку.
-
+# BookTracker
 ---
 BUILD | QUALITY GATE STATUS | MAINTAINABILITY RATING | RELIABILITY RATING | SECURITY RATING
 --- | --- | --- | --- | ---
