@@ -37,3 +37,4 @@ tools/*
 #VsCode files
 .vscode/tasks.json
 .vscode/launch.json
+/Src/BookTracker/node_modules
