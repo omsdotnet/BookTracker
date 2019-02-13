@@ -13,4 +13,6 @@ BUILD | QUALITY GATE STATUS | MAINTAINABILITY RATING | RELIABILITY RATING | SECU
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=omsdotnet_BookTracker&metric=coverage)](https://sonarcloud.io/dashboard?id=omsdotnet_BookTracker) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=omsdotnet_BookTracker&metric=code_smells)](https://sonarcloud.io/dashboard?id=omsdotnet_BookTracker)   [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=omsdotnet_BookTracker&metric=sqale_index)](https://sonarcloud.io/dashboard?id=omsdotnet_BookTracker) [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=omsdotnet_BookTracker&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=omsdotnet_BookTracker) [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=omsdotnet_BookTracker&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=omsdotnet_BookTracker)
 ---
 
+# Promo:
+
 ![1](https://github.com/omsdotnet/BookTracker/blob/master/Matherials/promo/savedimage4.jpg?raw=true)
