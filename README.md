@@ -1,5 +1,10 @@
 # BookTracker
 
+Позволяет участникам сообщества объединять свои печатные книжки, в совместно используемые книжные полки, сохраняя при этом над ними контроль.
+
+# Production: http://booktracking.azurewebsites.net
+
+# CodeBase:
 
 BUILD | QUALITY GATE STATUS | MAINTAINABILITY RATING | RELIABILITY RATING | SECURITY RATING
 --- | --- | --- | --- | ---
