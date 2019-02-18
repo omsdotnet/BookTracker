@@ -1,14 +1,14 @@
 ///////////////////////////////////////////////////////////////////////////////
 // Tools
 ///////////////////////////////////////////////////////////////////////////////
-#tool nuget:?package=MSBuild.SonarQube.Runner.Tool&version=4.2.0
+#tool nuget:?package=MSBuild.SonarQube.Runner.Tool&version=4.3.1
 #tool nuget:?package=NUnit.ConsoleRunner&version=3.9.0
 #tool nuget:?package=JetBrains.dotCover.CommandLineTools&version=2018.3.1
 
 ///////////////////////////////////////////////////////////////////////////////
 // AddIn
 ///////////////////////////////////////////////////////////////////////////////
-#addin nuget:?package=Cake.Sonar&version=1.1.16
+#addin nuget:?package=Cake.Sonar&version=1.1.18
 #addin nuget:?package=Cake.ArgumentHelpers&version=0.3.0
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -102,14 +102,12 @@ Task("InitializeSonar")
 });
 
 Task("Build")
-  .IsDependentOn("RestorePackages")
   .Does(() =>
 {
    DotNetCoreBuild(parameters.Paths.Directories.Source.Combine(parameters.Solution).FullPath, coreBuildSettings);
 });
 
 Task("RunUnitTests")
-  .IsDependentOn("InitializeSonar")
   .IsDependentOn("Build")
   .Does(() =>
 {
@@ -134,6 +132,7 @@ Task("RunUnitTests")
 });
 
 Task("StaticAnalysis")
+  .IsDependentOn("InitializeSonar")
   .IsDependentOn("RunUnitTests")
   .Does(() =>
 {
