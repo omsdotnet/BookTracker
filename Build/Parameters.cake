@@ -3,6 +3,7 @@
 public class BuildParameters
 {
   private const string DefaultMsBuildPath = @"C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\MSBuild.exe";
+  private const string DefaultBranch = "master";
 
   public string Target { get; private set; }
   public string Configuration { get; private set; }
@@ -39,7 +40,7 @@ public class BuildParameters
     }
     
     var buildSystem = context.BuildSystem();
-    var branch = buildSystem?.AppVeyor?.Environment?.Repository?.Branch ?? "master";
+    var branch = buildSystem.IsLocalBuild ? DefaultBranch : buildSystem.AppVeyor.Environment.Repository.Branch;
     
     return new BuildParameters 
     {

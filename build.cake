@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 // Tools
 ///////////////////////////////////////////////////////////////////////////////
-#tool nuget:?package=MSBuild.SonarQube.Runner.Tool&version=4.3.1
+#tool nuget:?package=MSBuild.SonarQube.Runner.Tool&version=4.2.0
 #tool nuget:?package=NUnit.ConsoleRunner&version=3.9.0
 #tool nuget:?package=JetBrains.dotCover.CommandLineTools&version=2018.3.1
 
@@ -25,8 +25,8 @@
 ///////////////////////////////////////////////////////////////////////////////
 BuildParameters parameters = BuildParameters.GetParameters(Context);
 SonarBeginSettings sonarqubeBeginSettings = null;
-MSBuildSettings msBuildSettings = null;
-NUnit3Settings nUnit3Settings = null;
+DotNetCoreBuildSettings coreBuildSettings = null;
+DotNetCoreTestSettings  coreTestsSettings = null;
 DotCoverAnalyseSettings dotCoverAnalyseSettings = null;
 SonarEndSettings sonarqubeEndSettings = null;
 
@@ -39,25 +39,21 @@ Setup(context =>
   Information("Initialize Parameters");
   parameters.Initialize(context);
 
-  Information("Initialize MSBuildSettings");
-  msBuildSettings = new MSBuildSettings() 
-  { 
-    MaxCpuCount = Environment.ProcessorCount,
+  Information($"Initialize { nameof(DotNetCoreBuildSettings) }");
+  coreBuildSettings= new DotNetCoreBuildSettings()
+  {
+    Framework = "netcoreapp2.1",
     Configuration = parameters.Configuration,
+    OutputDirectory = parameters.Paths.Directories.Bin
   };
 
   Information("Initialize NUnit3Settings");
-  nUnit3Settings = new NUnit3Settings() 
+  coreTestsSettings = new DotNetCoreTestSettings () 
   {
-    Agents = Environment.ProcessorCount,
-    Results = new List<NUnit3Result>()
-    {
-      new NUnit3Result 
-      {
-        FileName = parameters.Paths.Directories.ToolsReports.Combine("./UnitResultsReport.xml").FullPath
-      }
-    },
-    Where = "cat = Unit"
+    Configuration = parameters.Configuration,
+    Filter = "TestCategory=Unit",
+    NoBuild = true,
+    OutputDirectory = parameters.Paths.Directories.Bin
   };
 
   Information("Initialize DotCoverAnalyseSettings");
@@ -107,14 +103,13 @@ Task("InitializeSonar")
 
 Task("Build")
   .IsDependentOn("RestorePackages")
-  .IsDependentOn("InitializeSonar")
   .Does(() =>
 {
-  MSBuild(parameters.Paths.Directories.Source.Combine(parameters.Solution).FullPath, msBuildSettings);
+   DotNetCoreBuild(parameters.Paths.Directories.Source.Combine(parameters.Solution).FullPath, coreBuildSettings);
 });
 
 Task("RunUnitTests")
-  .WithCriteria(!parameters.SkipUnitTests)
+  .IsDependentOn("InitializeSonar")
   .IsDependentOn("Build")
   .Does(() =>
 {
@@ -125,8 +120,17 @@ Task("RunUnitTests")
   
   DotCoverAnalyse(tool => 
   {
-    tool.NUnit3(parameters.Paths.Directories.Bin.FullPath + "/**/*.Tests.dll", nUnit3Settings);
-  }, parameters.Paths.Directories.ToolsReports.Combine("./DotCoverReport.html").FullPath, dotCoverAnalyseSettings);
+     var projectFiles = GetFiles(parameters.Paths.Directories.Source.FullPath + "/**/*.Tests.csproj");
+     foreach(var file in projectFiles)
+     {
+       tool.DotNetCoreTest(
+         file.FullPath, 
+         coreTestsSettings);
+     }
+  }, 
+  parameters.Paths.Directories.ToolsReports.Combine("./DotCoverReport.html").FullPath, 
+  dotCoverAnalyseSettings.WithFilter("+:BookTracker")
+                         .WithFilter("-:BookTracker.Tests"));
 });
 
 Task("StaticAnalysis")

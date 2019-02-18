@@ -32,9 +32,10 @@ _ReSharper*/
 #Nuget packages folder
 packages/
 #Cake tools folder
-tools/*
+tools*/
 !tools/packages.config
 #VsCode files
 .vscode/tasks.json
 .vscode/launch.json
 /Src/BookTracker/node_modules
+.sonarqube*/
